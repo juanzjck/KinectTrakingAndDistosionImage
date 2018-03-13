@@ -18,12 +18,12 @@ void setup() {
   size(1080, 520);
   kinect = new Kinect(this);
   tracker = new KinectTracker();
-  img = loadImage("laDefense.png");
+  //img = loadImage("laDefense.png");
 }
 
 void draw() {
   background(255);
-   image(img, 0, 0);
+   //image(img, 0, 0);
   // Run the tracking analysis
   tracker.track();
   // Show the image
